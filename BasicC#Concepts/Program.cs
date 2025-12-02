@@ -21,6 +21,10 @@ namespace BasicC_Concepts
             PowerMethodUse p=new PowerMethodUse();
             int n=int.Parse(Console.ReadLine());
             p.PowerMethod(n);
+
+            HarmonicNumber HN=new HarmonicNumber();
+            int harmonic= int.Parse(Console.ReadLine()) ;
+            HN.Harmonic(harmonic);
         }
     }
 }

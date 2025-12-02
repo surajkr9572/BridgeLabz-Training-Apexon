@@ -21,7 +21,7 @@ namespace BasicC_Consepts.Loops
             else
             {
                
-                for(int i = 1; i <=data; i++)
+                for(int i = 1; i <data; i++)
                 {
                     int tabel=Convert.ToInt32(Math.Pow(2, i));
                     Console.WriteLine($"2 ^ {i} = {tabel}" );
