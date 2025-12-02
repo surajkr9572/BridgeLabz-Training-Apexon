@@ -1,10 +1,13 @@
-﻿namespace BasicC_Consepts
+﻿using BasicC_Consepts.DataTypes;
+
+namespace BasicC_Consepts
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Class1 obj1= new Class1();
+            obj1.DataTypeExample();
         }
     }
 }

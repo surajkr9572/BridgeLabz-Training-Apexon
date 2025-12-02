@@ -1,0 +1,15 @@
+D:\Bridzelabz\BridgeLabz-Training-Apexon\BasicC#Consepts\bin\Debug\net8.0\BasicC#Consepts.exe
+D:\Bridzelabz\BridgeLabz-Training-Apexon\BasicC#Consepts\bin\Debug\net8.0\BasicC#Consepts.deps.json
+D:\Bridzelabz\BridgeLabz-Training-Apexon\BasicC#Consepts\bin\Debug\net8.0\BasicC#Consepts.runtimeconfig.json
+D:\Bridzelabz\BridgeLabz-Training-Apexon\BasicC#Consepts\bin\Debug\net8.0\BasicC#Consepts.dll
+D:\Bridzelabz\BridgeLabz-Training-Apexon\BasicC#Consepts\bin\Debug\net8.0\BasicC#Consepts.pdb
+D:\Bridzelabz\BridgeLabz-Training-Apexon\BasicC#Consepts\obj\Debug\net8.0\BasicC#Consepts.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bridzelabz\BridgeLabz-Training-Apexon\BasicC#Consepts\obj\Debug\net8.0\BasicC#Consepts.AssemblyInfoInputs.cache
+D:\Bridzelabz\BridgeLabz-Training-Apexon\BasicC#Consepts\obj\Debug\net8.0\BasicC#Consepts.AssemblyInfo.cs
+D:\Bridzelabz\BridgeLabz-Training-Apexon\BasicC#Consepts\obj\Debug\net8.0\BasicC#Consepts.csproj.CoreCompileInputs.cache
+D:\Bridzelabz\BridgeLabz-Training-Apexon\BasicC#Consepts\obj\Debug\net8.0\BasicC#Consepts.sourcelink.json
+D:\Bridzelabz\BridgeLabz-Training-Apexon\BasicC#Consepts\obj\Debug\net8.0\BasicC#Consepts.dll
+D:\Bridzelabz\BridgeLabz-Training-Apexon\BasicC#Consepts\obj\Debug\net8.0\refint\BasicC#Consepts.dll
+D:\Bridzelabz\BridgeLabz-Training-Apexon\BasicC#Consepts\obj\Debug\net8.0\BasicC#Consepts.pdb
+D:\Bridzelabz\BridgeLabz-Training-Apexon\BasicC#Consepts\obj\Debug\net8.0\BasicC#Consepts.genruntimeconfig.cache
+D:\Bridzelabz\BridgeLabz-Training-Apexon\BasicC#Consepts\obj\Debug\net8.0\ref\BasicC#Consepts.dll
