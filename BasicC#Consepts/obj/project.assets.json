@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\BasicC#Consepts\\BasicC#Consepts.csproj",
-      "projectName": "BasicC#Consepts",
-      "projectPath": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\BasicC#Consepts\\BasicC#Consepts.csproj",
+      "projectUniqueName": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\BasicC#Consepts\\BasicC#Concepts.csproj",
+      "projectName": "BasicC#Concepts",
+      "projectPath": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\BasicC#Consepts\\BasicC#Concepts.csproj",
       "packagesPath": "C:\\Users\\suraj\\.nuget\\packages\\",
       "outputPath": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\BasicC#Consepts\\obj\\",
       "projectStyle": "PackageReference",

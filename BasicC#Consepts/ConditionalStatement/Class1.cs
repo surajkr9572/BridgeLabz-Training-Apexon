@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BasicC_Consepts.ConditionalStatement
+namespace BasicC_Concepts.ConditionalStatement
 {
     internal class Class1
     {

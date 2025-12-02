@@ -1,6 +1,6 @@
-﻿using BasicC_Consepts.DataTypes;
+﻿using BasicC_Concepts.DataTypes;
 
-namespace BasicC_Consepts
+namespace BasicC_Concepts
 {
     internal class Program
     {

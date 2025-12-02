@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BasicC_Consepts.DataTypes
+namespace BasicC_Concepts.DataTypes
 {
     internal class Class1
     {
