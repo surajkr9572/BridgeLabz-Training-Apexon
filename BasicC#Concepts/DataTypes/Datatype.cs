@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace BasicC_Concepts.DataTypes
 {
-    internal class Class1
+    internal class Datatype
     {
-        public Class1()
+        public Datatype()
         {
             Console.WriteLine("Implementations of Datatype");
         }
