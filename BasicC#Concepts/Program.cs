@@ -1,6 +1,7 @@
 ﻿using BasicC_Concepts.DataTypes;
 using BasicC_Concepts.ConditionalStatement;
 using BasicC_Consepts.ConditionalStatement;
+using BasicC_Consepts.Loops;
 namespace BasicC_Concepts
 {
     internal class Program
@@ -11,10 +12,15 @@ namespace BasicC_Concepts
             obj1.DataTypeExample();
 
             CoinsProblem obj2 = new CoinsProblem();
-            obj2.ConditionalExample(); 
+            int flip=int.Parse(Console.ReadLine());
+            obj2.ConditionalExample(flip); 
 
             LeapYear lp=new LeapYear(2002);
             lp.LeapYearExample();
+
+            PowerMethodUse p=new PowerMethodUse();
+            int n=int.Parse(Console.ReadLine());
+            p.PowerMethod(n);
         }
     }
 }

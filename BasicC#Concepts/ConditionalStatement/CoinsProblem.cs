@@ -12,18 +12,40 @@ namespace BasicC_Concepts.ConditionalStatement
         {
             Console.WriteLine("Conditional Statements");
         }
-        public void ConditionalExample()
+        public void ConditionalExample(int number)
         {
-            Random rnd=new Random();
-            double d=rnd.NextDouble();
-            if (d < 0.5)
+            if (number <= 0)
             {
-                Console.WriteLine("tails");
+                Console.WriteLine("Enter positive Number : ");
             }
             else
             {
-                Console.WriteLine("heads");
+                
+                Random r = new Random();
+                int tails = 0;
+                int heads = 0;
+                for(int i=0;i< number; i++)
+                {
+                    double randomValue = r.NextDouble();
+                    if (randomValue < 0.5)
+                    {
+                        tails++;
+                    }
+                    else
+                    {
+                        heads++;
+                    }
+
+                   
+                }
+                int TailPercent = (tails * 100) / number;
+                int HeadPercent=(heads * 100) / number;
+                Console.WriteLine($"Tails: {TailPercent}");
+                Console.WriteLine($"Heads: {HeadPercent}");
+
             }
+
+            
         }
     }
 }
