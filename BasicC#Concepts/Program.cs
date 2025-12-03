@@ -1,9 +1,11 @@
-﻿using BasicC_Concepts.DataTypes;
-using BasicC_Concepts.ConditionalStatement;
-using BasicC_Consepts.ConditionalStatement;
-using BasicC_Consepts.Loops;
-using BasicC_Consepts.DataTypes;
+﻿using BasicC_Concepts.ConditionalStatement;
+using BasicC_Concepts.DataTypes;
+using BasicC_Consepts._2D_Arrays;
 using BasicC_Consepts.Arrays;
+using BasicC_Consepts.ConditionalStatement;
+using BasicC_Consepts.DataTypes;
+using BasicC_Consepts.Loops;
+using System;
 namespace BasicC_Concepts
 {
     internal class Program
@@ -217,20 +219,45 @@ namespace BasicC_Concepts
             //arraysIntersection.intersection(a, b);
 
 
-            Console.WriteLine("Enter number: ");
+            //Console.WriteLine("Enter number: ");
+            //int n = int.Parse(Console.ReadLine());
+            //int[] a = new int[n];
+            //Console.WriteLine("Enter Elements in Array");
+            //for (int i = 0; i < n; i++)
+            //{
+
+            //    a[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //Console.WriteLine("Enter K  number: ");
+            //int K=int.Parse(Console.ReadLine());
+            //rotateAnArrayByK rotatee=new rotateAnArrayByK();
+            //rotatee.rotateByK(a,K);
+
+            Console.WriteLine("Enter length of 1st 2D matrix: ");
             int n = int.Parse(Console.ReadLine());
-            int[] a = new int[n];
-            Console.WriteLine("Enter Elements in Array");
+            int m = int.Parse(Console.ReadLine());
+            int[,] a = new int[n, m];
+            Console.WriteLine("Enter element..");
             for (int i = 0; i < n; i++)
             {
-
-                a[i] = int.Parse(Console.ReadLine());
+                for (int j = 0; j < m; j++)
+                {
+                    a[i, j] = int.Parse(Console.ReadLine());
+                }
             }
+            Console.WriteLine("Enter elements..");
+            int[,] b = new int[n, m];
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < m; j++)
+                {
+                    b[i, j] = int.Parse(Console.ReadLine());
+                }
+            }
+            SumOf2Matrix sumMatrix = new SumOf2Matrix();
+            sumMatrix.sum(a, b);
 
-            Console.WriteLine("Enter K  number: ");
-            int K=int.Parse(Console.ReadLine());
-            rotateAnArrayByK rotatee=new rotateAnArrayByK();
-            rotatee.rotateByK(a,K);
         }
     }
 }

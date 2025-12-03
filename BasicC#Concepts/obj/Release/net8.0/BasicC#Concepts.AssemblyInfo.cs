@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BasicC#Concepts")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1420547a5f193e5bb737f9dcc686060768074d7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a52a5d2e53d4d0980b0b6af9502524e618d5d82")]
 [assembly: System.Reflection.AssemblyProductAttribute("BasicC#Concepts")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BasicC#Concepts")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
