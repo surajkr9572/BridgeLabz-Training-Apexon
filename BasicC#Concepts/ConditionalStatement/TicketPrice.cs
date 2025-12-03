@@ -1,4 +1,9 @@
-﻿using System;
+﻿//Write a C# program that calculates the price of a movie ticket based on the age of the customer and the time of the movie.
+//Implement different pricing rules for children (under 12), adults (12-64), and seniors (65+), and consider matinee discounts.
+
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

@@ -1,4 +1,7 @@
-﻿using System;
+﻿//C# Program to Check Whether a Number is Even or Odd
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

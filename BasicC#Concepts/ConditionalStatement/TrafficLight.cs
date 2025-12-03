@@ -1,4 +1,7 @@
-﻿using System;
+﻿//Create a C# program that simulates a traffic light. Implement a system where the light changes based on predefined time intervals.
+//Use conditional statements to determine which color (Red, Yellow, Green) should be displayed at any given time.
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Intrinsics.X86;

@@ -1,4 +1,7 @@
-﻿using System;
+﻿ //C# Program to Check Whether an Alphabet is Vowel or Consonant
+
+
+using System;
 using System.Collections.Generic;
 using System.Diagnostics.Metrics;
 using System.Linq;

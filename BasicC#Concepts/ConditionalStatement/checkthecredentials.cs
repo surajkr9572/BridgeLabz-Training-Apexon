@@ -1,4 +1,8 @@
-﻿using System;
+﻿//Design a simple login system in C# where users provide their username and password.
+//Use conditional statements to check the credentials and provide appropriate feedback, such as successful login, incorrect username, incorrect password, or account locked.
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

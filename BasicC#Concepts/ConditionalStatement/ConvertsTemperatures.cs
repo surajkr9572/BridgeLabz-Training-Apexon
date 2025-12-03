@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Develop a C# program that converts temperatures between Fahrenheit and Celsius based on user input. Use conditional statements to determine the conversion formula based on the user's choice.
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

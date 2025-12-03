@@ -1,4 +1,13 @@
-﻿using System;
+﻿/*Problem statements
+Write a C# program that takes a student's score as input and classifies it into grades (A, B, C, D, or F) based on the following criteria:
+A: 90 - 100
+B: 80 - 89
+C: 70 - 79
+D: 60 - 69
+F: 0 - 59
+*/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

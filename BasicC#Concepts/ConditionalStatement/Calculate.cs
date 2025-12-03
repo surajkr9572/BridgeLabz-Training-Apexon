@@ -1,4 +1,8 @@
-﻿using System;
+﻿//Implement a menu-driven calculator in C# that allows users to perform basic operations (addition, subtraction, multiplication, division).
+//Use conditional statements to execute the selected operation and handle invalid inputs.
+
+
+using System;
 using System.Collections.Generic;
 using System.Diagnostics.Metrics;
 using System.Linq;

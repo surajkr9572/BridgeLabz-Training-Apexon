@@ -1,4 +1,9 @@
-﻿using System;
+﻿//Implement a simple rock, paper, scissors game in C#. Prompt the user to enter their choice, and use conditional statements
+//to determine the winner based on the game rules (rock beats scissors, scissors beat paper, paper beats rock).
+
+
+using System;
+
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
