@@ -234,6 +234,29 @@ namespace BasicC_Concepts
             //rotateAnArrayByK rotatee=new rotateAnArrayByK();
             //rotatee.rotateByK(a,K);
 
+            //Console.WriteLine("Enter length of 1st 2D matrix: ");
+            //int n = int.Parse(Console.ReadLine());
+            //int m = int.Parse(Console.ReadLine());
+            //int[,] a = new int[n, m];
+            //Console.WriteLine("Enter element..");
+            //for (int i = 0; i < n; i++)
+            //{
+            //    for (int j = 0; j < m; j++)
+            //    {
+            //        a[i, j] = int.Parse(Console.ReadLine());
+            //    }
+            //}
+            //Console.WriteLine("Enter elements..");
+            //int[,] b = new int[n, m];
+            //for (int i = 0; i < n; i++)
+            //{
+            //    for (int j = 0; j < m; j++)
+            //    {
+            //        b[i, j] = int.Parse(Console.ReadLine());
+            //    }
+            //}
+            //SumOf2Matrix sumMatrix = new SumOf2Matrix();
+            //sumMatrix.sum(a, b);
             Console.WriteLine("Enter length of 1st 2D matrix: ");
             int n = int.Parse(Console.ReadLine());
             int m = int.Parse(Console.ReadLine());
@@ -246,17 +269,22 @@ namespace BasicC_Concepts
                     a[i, j] = int.Parse(Console.ReadLine());
                 }
             }
+            Console.WriteLine("Enter length of 2nd 2D arrays");
+            int n1= int.Parse(Console.ReadLine());
+            int m1= int.Parse(Console.ReadLine());
             Console.WriteLine("Enter elements..");
-            int[,] b = new int[n, m];
-            for (int i = 0; i < n; i++)
+
+            int[,] b = new int[n1, m1];
+            for (int i = 0; i < n1; i++)
             {
-                for (int j = 0; j < m; j++)
+                for (int j = 0; j < m1; j++)
                 {
                     b[i, j] = int.Parse(Console.ReadLine());
                 }
             }
-            SumOf2Matrix sumMatrix = new SumOf2Matrix();
-            sumMatrix.sum(a, b);
+            Multiplication2D multiplication = new Multiplication2D();
+
+            multiplication.multiply(a, b,n,m,n1,m1);
 
         }
     }
