@@ -12,17 +12,30 @@ namespace BasicC_Consepts.DataTypes
     {
         public void simulateTime()
         {
-            int cnt = 0;
-            Stopwatch stopwatch = new Stopwatch();
-            stopwatch.Start();
-            Console.WriteLine("Stopwatch  Started: ");
-            for (int i = 0; i < 1000; i++)
-            {
-                cnt++;
-            }
-            stopwatch.Stop();
-            Console.WriteLine("Stopwatch Closed: ");
-            TimeSpan ts=stopwatch.Elapsed;
+            //int cnt = 0;
+            //Stopwatch stopwatch = new Stopwatch();
+            //stopwatch.Start();
+            //Console.WriteLine("Stopwatch  Started: ");
+            //for (int i = 0; i < 1000; i++)
+            //{
+            //    cnt++;
+            //}
+            //stopwatch.Stop();
+            //Console.WriteLine("Stopwatch Closed: ");
+            //TimeSpan ts=stopwatch.Elapsed;
+
+            int timer = 0;
+            Console.WriteLine("Press Enter to Start..");
+            while (Console.ReadKey(true).Key != ConsoleKey.Enter) { };
+
+            DateTime start= DateTime.Now;
+            Console.WriteLine("Timer Started Press Enter to Stop");
+            while(Console.ReadKey(true).Key != ConsoleKey.Enter){ };
+
+            DateTime end= DateTime.Now;
+
+            TimeSpan ts = end - start;
+            
 
             Console.WriteLine($"{ts.Hours} Hours {ts.Minutes} Minutes {ts.Seconds} Second {ts.Milliseconds} Millisecond");
         }
