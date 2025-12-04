@@ -5,6 +5,7 @@ using BasicC_Consepts.Arrays;
 using BasicC_Consepts.ConditionalStatement;
 using BasicC_Consepts.DataTypes;
 using BasicC_Consepts.Loops;
+using BasicC_Consepts.Strings;
 using System;
 namespace BasicC_Concepts
 {
@@ -163,11 +164,11 @@ namespace BasicC_Concepts
 
 
             //Console.WriteLine("Enter number: ");
-            //int n=int.Parse(Console.ReadLine());
-            //int[]a=new int[n];
-            //for(int i=0; i<n; i++)
+            //int n = int.Parse(Console.ReadLine());
+            //int[] a = new int[n];
+            //for (int i = 0; i < n; i++)
             //{
-            //    a[i]=int.Parse(Console.ReadLine());
+            //    a[i] = int.Parse(Console.ReadLine());
             //}
             //Console.WriteLine("Enter Target: ");
             //int target = int.Parse(Console.ReadLine());
@@ -257,35 +258,127 @@ namespace BasicC_Concepts
             //}
             //SumOf2Matrix sumMatrix = new SumOf2Matrix();
             //sumMatrix.sum(a, b);
-            Console.WriteLine("Enter length of 1st 2D matrix: ");
-            int n = int.Parse(Console.ReadLine());
-            int m = int.Parse(Console.ReadLine());
-            int[,] a = new int[n, m];
-            Console.WriteLine("Enter element..");
-            for (int i = 0; i < n; i++)
-            {
-                for (int j = 0; j < m; j++)
-                {
-                    a[i, j] = int.Parse(Console.ReadLine());
-                }
-            }
-            Console.WriteLine("Enter length of 2nd 2D arrays");
-            int n1= int.Parse(Console.ReadLine());
-            int m1= int.Parse(Console.ReadLine());
-            Console.WriteLine("Enter elements..");
+            //Console.WriteLine("Enter length of 1st 2D matrix: ");
+            //int n = int.Parse(Console.ReadLine());
+            //int m = int.Parse(Console.ReadLine());
+            //int[,] a = new int[n, m];
+            //Console.WriteLine("Enter element..");
+            //for (int i = 0; i < n; i++)
+            //{
+            //    for (int j = 0; j < m; j++)
+            //    {
+            //        a[i, j] = int.Parse(Console.ReadLine());
+            //    }
+            //}
+            //Console.WriteLine("Enter length of 2nd 2D arrays");
+            //int n1= int.Parse(Console.ReadLine());
+            //int m1= int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter elements..");
 
-            int[,] b = new int[n1, m1];
-            for (int i = 0; i < n1; i++)
-            {
-                for (int j = 0; j < m1; j++)
-                {
-                    b[i, j] = int.Parse(Console.ReadLine());
-                }
-            }
-            Multiplication2D multiplication = new Multiplication2D();
+            //int[,] b = new int[n1, m1];
+            //for (int i = 0; i < n1; i++)
+            //{
+            //    for (int j = 0; j < m1; j++)
+            //    {
+            //        b[i, j] = int.Parse(Console.ReadLine());
+            //    }
+            //}
+            //Multiplication2D multiplication = new Multiplication2D();
 
-            multiplication.multiply(a, b,n,m,n1,m1);
+            //multiplication.multiply(a, b,n,m,n1,m1);
 
+            //Console.WriteLine("Enter length of 1st 2D matrix: ");
+            //int n = int.Parse(Console.ReadLine());
+            //int m = int.Parse(Console.ReadLine());
+            //int[,] a = new int[n, m];
+            //Console.WriteLine("Enter element..");
+            //for (int i = 0; i < n; i++)
+            //{
+            //    for (int j = 0; j < m; j++)
+            //    {
+            //        a[i, j] = int.Parse(Console.ReadLine());
+            //    }
+            //}
+            //SpiralMatrix spiral = new SpiralMatrix();
+            //spiral.print(a, n, m);
+
+            //Console.WriteLine("Enter String : ");
+            //string s = Console.ReadLine();
+            //ReverseString r = new ReverseString();
+            //string st=(r.reverse(s));
+            //foreach(char c in st)
+            //{
+            //    Console.Write(c);
+            //}
+
+            //Console.WriteLine("Enter string : ");
+            //string s=Console.ReadLine();
+            //PalindromeCheck palindrom=new PalindromeCheck();
+            //Console.WriteLine(palindrom.checkPalindrom(s));
+
+            //Console.WriteLine("Enter string : ");
+            //string s = Console.ReadLine();
+            //Console.WriteLine("Enter string : ");
+            //string s1 = Console.ReadLine();
+            //AnagramCheck anagramcheck=new AnagramCheck();
+            //Console.WriteLine(anagramcheck.Anagram(s, s1));
+
+            //Console.WriteLine("Enter string : ");
+            //string s = Console.ReadLine();
+            //LongestSubstring Lstr = new LongestSubstring();
+            //int ans=Lstr.length(s);
+            //Console.WriteLine(ans);
+
+            //Console.WriteLine("Enter string : ");
+            //string s = Console.ReadLine();
+            //StringCompression stringcompress=new StringCompression();
+            //string ss=stringcompress.compress(s);
+
+            //foreach(char c in ss)
+            //{
+            //    Console.Write(c);
+            //}
+
+
+            //Console.WriteLine("Enter string : ");
+            //string s = Console.ReadLine();
+
+            //FirstNon_RepeatingCharacter firstnon_repeatingCharacter=new FirstNon_RepeatingCharacter();
+            //char c=firstnon_repeatingCharacter.nonrepeating(s);
+            //Console.WriteLine(c);
+
+
+            //Console.WriteLine("Enter string : ");
+            //string s = Console.ReadLine();
+            //CountVowels_Consonants cntV_C = new CountVowels_Consonants();
+            //cntV_C.count(s);
+
+
+            //Console.WriteLine("Enter string : ");
+            //string s = Console.ReadLine();
+            //Console.WriteLine("Enter string : ");
+            //string ss = Console.ReadLine();
+            //StringRotation sr=new StringRotation();
+            //Console.WriteLine(sr.checkStringrotation(s, ss));
+
+            //Console.WriteLine("Enter string : ");
+            //string s = Console.ReadLine();
+
+            //LongestPalindromicSubstring longestpalindromicsubstring = new LongestPalindromicSubstring();
+            //string ans=longestpalindromicsubstring.LPS(s);
+            //foreach(char c in ans)
+            //{
+            //    Console.Write(c);
+            //}
+
+
+            Console.WriteLine("Enter string : ");
+            string s = Console.ReadLine();
+            Console.WriteLine("Enter Pattern: ");
+            string pattern=Console.ReadLine();
+            SubstringMatching substringmatching=new SubstringMatching();
+            int answerString=substringmatching.checkstring(s, pattern);
+            Console.WriteLine(answerString);
         }
     }
 }
