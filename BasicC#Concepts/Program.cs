@@ -235,6 +235,18 @@ namespace BasicC_Concepts
             //rotateAnArrayByK rotatee=new rotateAnArrayByK();
             //rotatee.rotateByK(a,K);
 
+            //Console.WriteLine("Enter length of an array: ");
+            //int n=int.Parse(Console.ReadLine());
+            //int[]a=new int[n];
+            //Console.WriteLine("Enter elements: ");
+            //for (int i=0; i<n; i++)
+            //{
+            //    a[i] = int.Parse(Console.ReadLine());
+            //}
+            //LongestConsecutiveSubsequence LCS = new LongestConsecutiveSubsequence();
+            //int LCSans=LCS.subsequence(a);
+            //Console.WriteLine(LCSans);
+            //-------------------------------------------------------------2D matrix ------------------------------------------------
             //Console.WriteLine("Enter length of 1st 2D matrix: ");
             //int n = int.Parse(Console.ReadLine());
             //int m = int.Parse(Console.ReadLine());
@@ -310,7 +322,7 @@ namespace BasicC_Concepts
             //{
             //    Console.Write(c);
             //}
-
+            //---------------------------------------------------------------------String------------------------------------------------------------------
             //Console.WriteLine("Enter string : ");
             //string s=Console.ReadLine();
             //PalindromeCheck palindrom=new PalindromeCheck();
@@ -323,11 +335,11 @@ namespace BasicC_Concepts
             //AnagramCheck anagramcheck=new AnagramCheck();
             //Console.WriteLine(anagramcheck.Anagram(s, s1));
 
-            //Console.WriteLine("Enter string : ");
-            //string s = Console.ReadLine();
-            //LongestSubstring Lstr = new LongestSubstring();
-            //int ans=Lstr.length(s);
-            //Console.WriteLine(ans);
+            Console.WriteLine("Enter string : ");
+            string s = Console.ReadLine();
+            LongestSubstring Lstr = new LongestSubstring();
+            int ans = Lstr.length(s);
+            Console.WriteLine(ans);
 
             //Console.WriteLine("Enter string : ");
             //string s = Console.ReadLine();
@@ -372,13 +384,13 @@ namespace BasicC_Concepts
             //}
 
 
-            Console.WriteLine("Enter string : ");
-            string s = Console.ReadLine();
-            Console.WriteLine("Enter Pattern: ");
-            string pattern=Console.ReadLine();
-            SubstringMatching substringmatching=new SubstringMatching();
-            int answerString=substringmatching.checkstring(s, pattern);
-            Console.WriteLine(answerString);
+            //Console.WriteLine("Enter string : ");
+            //string s = Console.ReadLine();
+            //Console.WriteLine("Enter Pattern: ");
+            //string pattern=Console.ReadLine();
+            //SubstringMatching substringmatching=new SubstringMatching();
+            //int answerString=substringmatching.checkstring(s, pattern);
+            //Console.WriteLine(answerString);
         }
     }
 }

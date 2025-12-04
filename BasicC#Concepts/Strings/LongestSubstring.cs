@@ -13,21 +13,38 @@ namespace BasicC_Consepts.Strings
     {
         public int length(string s)
         {
-            Dictionary<char, int> dict = new Dictionary<char, int>();
-            int left = 0;
-            int right = 0;
-            int len = 0;
-            while (right < s.Length)
+
+            int start = 0;
+           
+            int mxlength = 0;
+            HashSet<char> hs = new HashSet<char>();
+            for(int end = 0; end < s.Length; end++)
             {
-                if (dict.ContainsKey(s[right]))
+                while (hs.Contains(s[end]))
                 {
-                    left=Math.Max(left, dict[s[right]]+1);
+                    hs.Remove(s[start]);
+                    start++;
                 }
-                dict[s[right]]= right;
-                len = Math.Max(len, right - left + 1);
-                right++;
+                hs.Add(s[end]);
+                mxlength=Math.Max(mxlength, end- start+1);
+
             }
-            return len;
+            return mxlength;
+            //Dictionary<char, int> dict = new Dictionary<char, int>();
+            //int left = 0;
+            //int right = 0;
+            //int len = 0;
+            //while (right < s.Length)
+            //{
+            //    if (dict.ContainsKey(s[right]))
+            //    {
+            //        left=Math.Max(left, dict[s[right]]+1);
+            //    }
+            //    dict[s[right]]= right;
+            //    len = Math.Max(len, right - left + 1);
+            //    right++;
+            //}
+            //return len;
         }
     }
 }
