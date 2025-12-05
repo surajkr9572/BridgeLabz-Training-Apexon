@@ -14,3 +14,8 @@
 ### 04/12/2025
 #### Concepts: Question(Strings)
 
+
+## Daily Logs
+### 05/12/2025
+#### Concepts: Basic Of OOPS
+
