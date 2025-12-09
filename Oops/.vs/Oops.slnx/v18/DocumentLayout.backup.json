@@ -7,12 +7,20 @@
       "RelativeMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|d:\\bridzelabz\\bridgelabz-training-apexon\\oops\\inheritance\\singlelevelexample\\employeee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|solutionrelative:inheritance\\singlelevelexample\\employeee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|d:\\bridzelabz\\bridgelabz-training-apexon\\oops\\customeimmutableclass\\immutableclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|solutionrelative:customeimmutableclass\\immutableclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|d:\\bridzelabz\\bridgelabz-training-apexon\\oops\\inheritance\\singlelevelexample\\personn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|solutionrelative:inheritance\\singlelevelexample\\personn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|d:\\bridzelabz\\bridgelabz-training-apexon\\oops\\inheritance\\multilevelexample\\multilevelanimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|solutionrelative:inheritance\\multilevelexample\\multilevelanimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|d:\\bridzelabz\\bridgelabz-training-apexon\\oops\\inheritance\\multilevelexample\\multilevelexamplemammal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|solutionrelative:inheritance\\multilevelexample\\multilevelexamplemammal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|d:\\bridzelabz\\bridgelabz-training-apexon\\oops\\inheritance\\multilevelexample\\multileveldogs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|solutionrelative:inheritance\\multilevelexample\\multileveldogs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,33 +30,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Employeee.cs",
-              "DocumentMoniker": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Inheritance\\SingleLevelExample\\Employeee.cs",
-              "RelativeDocumentMoniker": "Inheritance\\SingleLevelExample\\Employeee.cs",
-              "ToolTip": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Inheritance\\SingleLevelExample\\Employeee.cs",
-              "RelativeToolTip": "Inheritance\\SingleLevelExample\\Employeee.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAQwAsAAAAZAAAAAAAAAA==",
+              "Title": "ImmutableClass.cs",
+              "DocumentMoniker": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\CustomeImmutableClass\\ImmutableClass.cs",
+              "RelativeDocumentMoniker": "CustomeImmutableClass\\ImmutableClass.cs",
+              "ToolTip": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\CustomeImmutableClass\\ImmutableClass.cs",
+              "RelativeToolTip": "CustomeImmutableClass\\ImmutableClass.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAuwCcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T06:28:34.804Z",
+              "WhenOpened": "2025-12-09T18:35:13.432Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Personn.cs",
-              "DocumentMoniker": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Inheritance\\SingleLevelExample\\Personn.cs",
-              "RelativeDocumentMoniker": "Inheritance\\SingleLevelExample\\Personn.cs",
-              "ToolTip": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Inheritance\\SingleLevelExample\\Personn.cs",
-              "RelativeToolTip": "Inheritance\\SingleLevelExample\\Personn.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAABOAAAAAAAAAA==",
+              "Title": "MultiLevelAnimal.cs",
+              "DocumentMoniker": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Inheritance\\MultiLevelExample\\MultiLevelAnimal.cs",
+              "RelativeDocumentMoniker": "Inheritance\\MultiLevelExample\\MultiLevelAnimal.cs",
+              "ToolTip": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Inheritance\\MultiLevelExample\\MultiLevelAnimal.cs",
+              "RelativeToolTip": "Inheritance\\MultiLevelExample\\MultiLevelAnimal.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T06:28:23.517Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T07:28:15.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MultiLevelExampleMammal.cs",
+              "DocumentMoniker": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Inheritance\\MultiLevelExample\\MultiLevelExampleMammal.cs",
+              "RelativeDocumentMoniker": "Inheritance\\MultiLevelExample\\MultiLevelExampleMammal.cs",
+              "ToolTip": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Inheritance\\MultiLevelExample\\MultiLevelExampleMammal.cs",
+              "RelativeToolTip": "Inheritance\\MultiLevelExample\\MultiLevelExampleMammal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T07:30:11.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MultiLevelDogs.cs",
+              "DocumentMoniker": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Inheritance\\MultiLevelExample\\MultiLevelDogs.cs",
+              "RelativeDocumentMoniker": "Inheritance\\MultiLevelExample\\MultiLevelDogs.cs",
+              "ToolTip": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Inheritance\\MultiLevelExample\\MultiLevelDogs.cs",
+              "RelativeToolTip": "Inheritance\\MultiLevelExample\\MultiLevelDogs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T06:58:56.019Z"
             },
             {
               "$type": "Document",
@@ -56,9 +87,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA7wB4AAAAYAAAAAAAAAA==",
+              "ToolTip": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAADEAAAAAAAAAAAAowEsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-05T10:33:45.016Z",
               "EditorCaption": ""
