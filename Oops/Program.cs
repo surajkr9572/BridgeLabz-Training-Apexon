@@ -1,6 +1,8 @@
 ﻿using Oops.Constructor;
 using Oops.Static_NonStatic;
 using Oops.Inheritance.SingleLevelExample;
+using Oops.Inheritance.MultiLevelExample;
+
 using System.Runtime.ConstrainedExecution;
 
 namespace Oops
@@ -24,11 +26,16 @@ namespace Oops
             //ns.cnt = 100;
             //ns.print();
 
-            Personn p=new Personn("Suraj",23,01);
-            p.print();
+            //Personn p=new Personn("Suraj",23,01);
+            //p.print();
 
-            Employeee emp = new Employeee("Suraj", 23, 01, 2340);
-            emp.print();
+            //Employeee emp = new Employeee("Suraj", 23, 01, 2340);
+            //emp.print();
+
+            MultiLevelDogs dogs=new MultiLevelDogs("Tommy");
+            dogs.Eat();
+            dogs.Walk();
+            dogs.Sleep();
         }
     }
 }
