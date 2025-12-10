@@ -1,8 +1,10 @@
 ﻿using Oops.Constructor;
-using Oops.Static_NonStatic;
-using Oops.Inheritance.SingleLevelExample;
-using Oops.Inheritance.MultiLevelExample;
 using Oops.CustomeImmutableClass;
+using Oops.DeepCopy;
+using Oops.Inheritance.MultiLevelExample;
+using Oops.Inheritance.SingleLevelExample;
+using Oops.ShawdowCopy;
+using Oops.Static_NonStatic;
 using System.Runtime.ConstrainedExecution;
 
 namespace Oops
@@ -36,27 +38,60 @@ namespace Oops
             //dogs.Eat();
             //dogs.Walk();
             //dogs.Sleep();
-            List<string>hobbies= new List<string>();
-            hobbies.Add("Coding");
-            hobbies.Add("Music");
-            hobbies.Add("Sleeping");
-            ImmutableClass imc = new ImmutableClass("Suraj",23,hobbies,12340);
-            Console.WriteLine($"Name : {imc.Name}");
-            Console.WriteLine($"Age  : {imc.Age}");
-            Console.WriteLine($"Salary : {imc.Salary}");
-            Console.WriteLine("Hobbies : ");
-            foreach(var i in imc.Hobbies)
-            {
-                Console.Write(i+" ");
-            }
-            Console.WriteLine();
-            hobbies.Add("Cricket");
-            Console.WriteLine("After modifing original list : ");
-            foreach( var i in imc.Hobbies)
-            {
-                Console.Write(i +" ");
-            }
-            Console.WriteLine();
+
+            //-----------------------------------------------------------Immutable Class-----------------------------------------------------------------------
+            //List<string>hobbies= new List<string>();
+            //hobbies.Add("Coding");
+            //hobbies.Add("Music");
+            //hobbies.Add("Sleeping");
+            //ImmutableClass imc = new ImmutableClass("Suraj",23,hobbies,12340);
+            //Console.WriteLine($"Name : {imc.Name}");
+            //Console.WriteLine($"Age  : {imc.Age}");
+            //Console.WriteLine($"Salary : {imc.Salary}");
+            //Console.WriteLine("Hobbies : ");
+            //foreach(var i in imc.Hobbies)
+            //{
+            //    Console.Write(i+" ");
+            //}
+            //Console.WriteLine();
+            //hobbies.Add("Cricket");
+            //Console.WriteLine("After modifing original list : ");
+            //foreach( var i in imc.Hobbies)
+            //{
+            //    Console.Write(i +" ");
+            //}
+            //Console.WriteLine();
+
+            //----------------------------------------------------------Shawdow Copy------------------------------------------------------------------------------
+            //CityForShallow ctShallow=new CityForShallow();
+            //ctShallow.city = "Gopalganj";
+
+            //PersonForShallow PFShallow=new PersonForShallow();
+            //PFShallow.Name = "Suraj Singh";
+            //PFShallow.adre = ctShallow;
+
+            //PersonForShallow PFShallow1 = PFShallow.ShallowCopy();
+
+            //PFShallow1.adre.city = "Lucknow";
+            //Console.BackgroundColor = ConsoleColor.Green;
+            //Console.ForegroundColor = ConsoleColor.Blue;
+            //Console.WriteLine($"Original Person Address: {PFShallow.adre.city}");
+            //Console.WriteLine($"Copied Person Address : {PFShallow.adre.city}");
+
+            //--------------------------------------------------------------Deep Copy-----------------------------------------------------------------------------------
+
+            Console.WriteLine("Deep Copy ....");
+            AddressForDeepCopy address = new AddressForDeepCopy();
+            address.city = "Gopalganj";
+            PersonForDeepCopy person = new PersonForDeepCopy();
+            person.Name = "Suraj Singh";
+            person.addr = address;
+
+            PersonForDeepCopy person1 = person.Deepcopy();
+            person1.addr.city = "Lucknow";
+
+            Console.WriteLine($"Original Person City : {person.addr.city}");
+            Console.WriteLine($"Copy Person City : {person1.addr.city}");
         }
     }
 }
