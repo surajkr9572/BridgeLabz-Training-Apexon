@@ -4,8 +4,11 @@ using Oops.DeepCopy;
 using Oops.Inheritance.MultiLevelExample;
 using Oops.Inheritance.SingleLevelExample;
 using Oops.ShawdowCopy;
+using Oops.Polymorphism.CompileTimePolymorphism;
+using Oops.Polymorphism.runTimePolymorphism;
 using Oops.Static_NonStatic;
 using System.Runtime.ConstrainedExecution;
+using Oops.Polymorphism;
 
 namespace Oops
 {
@@ -80,18 +83,41 @@ namespace Oops
 
             //--------------------------------------------------------------Deep Copy-----------------------------------------------------------------------------------
 
-            Console.WriteLine("Deep Copy ....");
-            AddressForDeepCopy address = new AddressForDeepCopy();
-            address.city = "Gopalganj";
-            PersonForDeepCopy person = new PersonForDeepCopy();
-            person.Name = "Suraj Singh";
-            person.addr = address;
+            //Console.WriteLine("Deep Copy ....");
+            //AddressForDeepCopy address = new AddressForDeepCopy();
+            //address.city = "Gopalganj";
+            //PersonForDeepCopy person = new PersonForDeepCopy();
+            //person.Name = "Suraj Singh";
+            //person.addr = address;
 
-            PersonForDeepCopy person1 = person.Deepcopy();
-            person1.addr.city = "Lucknow";
+            //PersonForDeepCopy person1 = person.Deepcopy();
+            //person1.addr.city = "Lucknow";
 
-            Console.WriteLine($"Original Person City : {person.addr.city}");
-            Console.WriteLine($"Copy Person City : {person1.addr.city}");
+            //Console.WriteLine($"Original Person City : {person.addr.city}");
+            //Console.WriteLine($"Copy Person City : {person1.addr.city}");
+
+            //----------------------------------------------------------CompileTime Polymorphism----------------------------------------------------------------------------
+            //Console.WriteLine("Compiletime polymorphism....");
+            //CompileTime compiletime = new CompileTime();
+            //Console.WriteLine(compiletime.sum(2));
+            //Console.WriteLine(compiletime.sum(2, 4));
+            //Console.WriteLine(compiletime.sum(2, 4, 6));
+            //Console.WriteLine(compiletime.sum(2, 4, 6, 8));
+
+            //--------------------------------------------------------runtime Polymorphism------------------------------------------------------------------------------------
+            //runtimefile1 file1 = new runtimefile1();
+            //file1.write();
+            //file1 = new runtimefile2();
+            //file1.write();
+            //file1 = new runtimefile3();
+            //file1.write();
+
+            //--------------------------------------------------------Operator overloading------------------------------------------------------------------------------------
+            OperatorOverloading operatoroverloadingT1 = new OperatorOverloading(2,40);
+            OperatorOverloading operatoroverloadingT2 = new OperatorOverloading(1, 30);
+            OperatorOverloading Total = operatoroverloadingT1 + operatoroverloadingT2;
+            Console.WriteLine(Total);
+
         }
     }
 }
