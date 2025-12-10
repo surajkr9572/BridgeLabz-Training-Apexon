@@ -5,6 +5,7 @@ using Oops.Inheritance.MultiLevelExample;
 using Oops.Inheritance.SingleLevelExample;
 using Oops.Hiding.VariableHiding;
 using Oops.Hiding.MethodHiding;
+using Oops.Encapsulation;
 using Oops.ShawdowCopy;
 using Oops.Polymorphism.CompileTimePolymorphism;
 using Oops.Polymorphism.runTimePolymorphism;
@@ -126,9 +127,16 @@ namespace Oops
 
             //---------------------------------------------------------Method Hiding Concepts------------------------------------------------------------------------------
 
-            Mchild.show();
-            Mperson.show();
-
+            //Mchild.show();
+            //Mperson.show();
+            //-----------------------------------------------------------Encapsulation------------------------------------------------------------------------------------------
+            BankAccount bankaccount = new BankAccount();
+            bankaccount.setBalance(2000);
+            bankaccount.setName("Suraj Kumar");
+            bankaccount.Deposit(2000);
+            bankaccount.Widthrow(1000);
+            Console.WriteLine(bankaccount.getBalance());
+            Console.WriteLine(bankaccount.getName());
         }
     }
 }
