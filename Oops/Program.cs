@@ -3,6 +3,8 @@ using Oops.CustomeImmutableClass;
 using Oops.DeepCopy;
 using Oops.Inheritance.MultiLevelExample;
 using Oops.Inheritance.SingleLevelExample;
+using Oops.Hiding.VariableHiding;
+using Oops.Hiding.MethodHiding;
 using Oops.ShawdowCopy;
 using Oops.Polymorphism.CompileTimePolymorphism;
 using Oops.Polymorphism.runTimePolymorphism;
@@ -113,10 +115,19 @@ namespace Oops
             //file1.write();
 
             //--------------------------------------------------------Operator overloading------------------------------------------------------------------------------------
-            OperatorOverloading operatoroverloadingT1 = new OperatorOverloading(2,40);
-            OperatorOverloading operatoroverloadingT2 = new OperatorOverloading(1, 30);
-            OperatorOverloading Total = operatoroverloadingT1 + operatoroverloadingT2;
-            Console.WriteLine(Total);
+            //OperatorOverloading operatoroverloadingT1 = new OperatorOverloading(2,40);
+            //OperatorOverloading operatoroverloadingT2 = new OperatorOverloading(1, 30);
+            //OperatorOverloading Total = operatoroverloadingT1 + operatoroverloadingT2;
+            //Console.WriteLine(Total);
+
+            //---------------------------------------------------------Varible Hiding Concepts--------------------------------------------------------------------------------------
+            //Console.WriteLine(Vchild.x);  //we can also hidding  non static variable and method
+            //Console.WriteLine(Vperson.x);
+
+            //---------------------------------------------------------Method Hiding Concepts------------------------------------------------------------------------------
+
+            Mchild.show();
+            Mperson.show();
 
         }
     }

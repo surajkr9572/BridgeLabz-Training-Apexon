@@ -7,28 +7,12 @@
       "RelativeMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|d:\\bridzelabz\\bridgelabz-training-apexon\\oops\\polymorphism\\runtimepolymorphism\\runtimefile3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|solutionrelative:polymorphism\\runtimepolymorphism\\runtimefile3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|d:\\bridzelabz\\bridgelabz-training-apexon\\oops\\hiding\\variablehiding\\vchild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|solutionrelative:hiding\\variablehiding\\vchild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|d:\\bridzelabz\\bridgelabz-training-apexon\\oops\\polymorphism\\runtimepolymorphism\\runtimefile2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|solutionrelative:polymorphism\\runtimepolymorphism\\runtimefile2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|d:\\bridzelabz\\bridgelabz-training-apexon\\oops\\polymorphism\\runtimepolymorphism\\runtimefile1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|solutionrelative:polymorphism\\runtimepolymorphism\\runtimefile1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|d:\\bridzelabz\\bridgelabz-training-apexon\\oops\\polymorphism\\compiletimepolymorphism\\compiletime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|solutionrelative:polymorphism\\compiletimepolymorphism\\compiletime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|d:\\bridzelabz\\bridgelabz-training-apexon\\oops\\deepcopy\\personfordeepcopy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|solutionrelative:deepcopy\\personfordeepcopy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|d:\\bridzelabz\\bridgelabz-training-apexon\\oops\\deepcopy\\addressfordeepcopy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|solutionrelative:deepcopy\\addressfordeepcopy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|d:\\bridzelabz\\bridgelabz-training-apexon\\oops\\hiding\\variablehiding\\vperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|solutionrelative:hiding\\variablehiding\\vperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,86 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "runtimefile3.cs",
-              "DocumentMoniker": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Polymorphism\\runTimePolymorphism\\runtimefile3.cs",
-              "RelativeDocumentMoniker": "Polymorphism\\runTimePolymorphism\\runtimefile3.cs",
-              "ToolTip": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Polymorphism\\runTimePolymorphism\\runtimefile3.cs",
-              "RelativeToolTip": "Polymorphism\\runTimePolymorphism\\runtimefile3.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T06:25:38.409Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "runtimefile2.cs",
-              "DocumentMoniker": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Polymorphism\\runTimePolymorphism\\runtimefile2.cs",
-              "RelativeDocumentMoniker": "Polymorphism\\runTimePolymorphism\\runtimefile2.cs",
-              "ToolTip": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Polymorphism\\runTimePolymorphism\\runtimefile2.cs",
-              "RelativeToolTip": "Polymorphism\\runTimePolymorphism\\runtimefile2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T06:21:43.115Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "runtimefile1.cs",
-              "DocumentMoniker": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Polymorphism\\runTimePolymorphism\\runtimefile1.cs",
-              "RelativeDocumentMoniker": "Polymorphism\\runTimePolymorphism\\runtimefile1.cs",
-              "ToolTip": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Polymorphism\\runTimePolymorphism\\runtimefile1.cs",
-              "RelativeToolTip": "Polymorphism\\runTimePolymorphism\\runtimefile1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T06:20:32.531Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CompileTime.cs",
-              "DocumentMoniker": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Polymorphism\\CompileTimePolymorphism\\CompileTime.cs",
-              "RelativeDocumentMoniker": "Polymorphism\\CompileTimePolymorphism\\CompileTime.cs",
-              "ToolTip": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Polymorphism\\CompileTimePolymorphism\\CompileTime.cs",
-              "RelativeToolTip": "Polymorphism\\CompileTimePolymorphism\\CompileTime.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBcAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T06:12:07.313Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AddressForDeepCopy.cs",
-              "DocumentMoniker": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\DeepCopy\\AddressForDeepCopy.cs",
-              "RelativeDocumentMoniker": "DeepCopy\\AddressForDeepCopy.cs",
-              "ToolTip": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\DeepCopy\\AddressForDeepCopy.cs",
-              "RelativeToolTip": "DeepCopy\\AddressForDeepCopy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T05:15:58.591Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PersonForDeepCopy.cs",
-              "DocumentMoniker": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\DeepCopy\\PersonForDeepCopy.cs",
-              "RelativeDocumentMoniker": "DeepCopy\\PersonForDeepCopy.cs",
-              "ToolTip": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\DeepCopy\\PersonForDeepCopy.cs",
-              "RelativeToolTip": "DeepCopy\\PersonForDeepCopy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T05:15:43.165Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -126,9 +32,36 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAowG8AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAAAHsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-05T10:33:45.016Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Vchild.cs",
+              "DocumentMoniker": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Hiding\\VariableHiding\\Vchild.cs",
+              "RelativeDocumentMoniker": "Hiding\\VariableHiding\\Vchild.cs",
+              "ToolTip": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Hiding\\VariableHiding\\Vchild.cs",
+              "RelativeToolTip": "Hiding\\VariableHiding\\Vchild.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T09:17:29.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Vperson.cs",
+              "DocumentMoniker": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Hiding\\VariableHiding\\Vperson.cs",
+              "RelativeDocumentMoniker": "Hiding\\VariableHiding\\Vperson.cs",
+              "ToolTip": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Hiding\\VariableHiding\\Vperson.cs",
+              "RelativeToolTip": "Hiding\\VariableHiding\\Vperson.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T09:16:57.06Z",
               "EditorCaption": ""
             }
           ]
