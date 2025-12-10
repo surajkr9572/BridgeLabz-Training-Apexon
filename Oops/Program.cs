@@ -3,6 +3,7 @@ using Oops.CustomeImmutableClass;
 using Oops.DeepCopy;
 using Oops.Inheritance.MultiLevelExample;
 using Oops.Inheritance.SingleLevelExample;
+using Oops.Abstraction;
 using Oops.Hiding.VariableHiding;
 using Oops.Hiding.MethodHiding;
 using Oops.Encapsulation;
@@ -130,13 +131,19 @@ namespace Oops
             //Mchild.show();
             //Mperson.show();
             //-----------------------------------------------------------Encapsulation------------------------------------------------------------------------------------------
-            BankAccount bankaccount = new BankAccount();
-            bankaccount.setBalance(2000);
-            bankaccount.setName("Suraj Kumar");
-            bankaccount.Deposit(2000);
-            bankaccount.Widthrow(1000);
-            Console.WriteLine(bankaccount.getBalance());
-            Console.WriteLine(bankaccount.getName());
+            //BankAccount bankaccount = new BankAccount();
+            //bankaccount.setBalance(2000);
+            //bankaccount.setName("Suraj Kumar");
+            //bankaccount.Deposit(2000);
+            //bankaccount.Widthrow(1000);
+            //Console.WriteLine(bankaccount.getBalance());
+            //Console.WriteLine(bankaccount.getName());
+
+            //------------------------------------------------------------Abstraction--------------------------------------------------------------------------------------
+            Animal an = new Dog();
+            an.Eat();
+            an.sound();
+
         }
     }
 }
