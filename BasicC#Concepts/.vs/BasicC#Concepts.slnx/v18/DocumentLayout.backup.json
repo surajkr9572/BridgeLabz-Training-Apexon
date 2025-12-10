@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\BasicC#Concepts\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BFE6B2A3-FDEF-7498-9659-63FFD51FEF77}|BasicC#Concepts.csproj|d:\\bridzelabz\\bridgelabz-training-apexon\\basicc#concepts\\2d arrays\\spiralmatrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFE6B2A3-FDEF-7498-9659-63FFD51FEF77}|BasicC#Concepts.csproj|solutionrelative:2d arrays\\spiralmatrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SpiralMatrix.cs",
+              "DocumentMoniker": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\BasicC#Concepts\\2D Arrays\\SpiralMatrix.cs",
+              "RelativeDocumentMoniker": "2D Arrays\\SpiralMatrix.cs",
+              "ToolTip": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\BasicC#Concepts\\2D Arrays\\SpiralMatrix.cs",
+              "RelativeToolTip": "2D Arrays\\SpiralMatrix.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T16:43:03.895Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

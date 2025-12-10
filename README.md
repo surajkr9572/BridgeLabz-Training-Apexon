@@ -19,3 +19,19 @@
 ### 05/12/2025
 #### Concepts: Basic Of OOPS
 
+## Daily Logs
+### 06/12/2025
+#### Concepts: Constructors, Destructors, Access modifiers.
+
+
+## Daily Logs
+### 08/12/2025
+#### concepts:  Inheritance
+
+## Daily Logs
+### 09/12/2025
+#### concepts: review task, Inheritance, Static and non Static 
+
+## Daily Logs
+### 10/12/2025
+#### concepts: Encapsulation, Abstraction, Polymorphism
