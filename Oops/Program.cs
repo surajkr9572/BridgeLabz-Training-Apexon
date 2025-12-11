@@ -152,6 +152,8 @@ namespace Oops
             ISalary PartTimeEmployee = new PartTimeSalary(4, 200);
             Console.WriteLine($"Full Time Employee Salary : {FulltimeEmployee.calculateSalary()}");
             Console.WriteLine($"Part Time Employee Salary : {PartTimeEmployee.calculateSalary()}");
+
+
         }
     }
 }
