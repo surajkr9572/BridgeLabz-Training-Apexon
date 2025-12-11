@@ -35,3 +35,7 @@
 ## Daily Logs
 ### 10/12/2025
 #### concepts: Encapsulation, Abstraction, Polymorphism
+
+## Daily Logs
+### 11/12/2025
+#### concepts: Interface, Assigment (Snake and Ladder(Question), Employee Management (Question))
