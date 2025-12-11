@@ -1,18 +1,20 @@
-﻿using Oops.Constructor;
+﻿using Oops.Abstraction;
+using Oops.Constructor;
 using Oops.CustomeImmutableClass;
 using Oops.DeepCopy;
+using Oops.Encapsulation;
+using Oops.Hiding.MethodHiding;
+using Oops.Hiding.VariableHiding;
 using Oops.Inheritance.MultiLevelExample;
 using Oops.Inheritance.SingleLevelExample;
-using Oops.Abstraction;
-using Oops.Hiding.VariableHiding;
-using Oops.Hiding.MethodHiding;
-using Oops.Encapsulation;
-using Oops.ShawdowCopy;
+using Oops.InterfaceImple;
+using Oops.InterfaceImple;
+using Oops.Polymorphism;
 using Oops.Polymorphism.CompileTimePolymorphism;
 using Oops.Polymorphism.runTimePolymorphism;
+using Oops.ShawdowCopy;
 using Oops.Static_NonStatic;
 using System.Runtime.ConstrainedExecution;
-using Oops.Polymorphism;
 
 namespace Oops
 {
@@ -140,10 +142,16 @@ namespace Oops
             //Console.WriteLine(bankaccount.getName());
 
             //------------------------------------------------------------Abstraction--------------------------------------------------------------------------------------
-            Animal an = new Dog();
-            an.Eat();
-            an.sound();
+            //Animal an = new Dog();
+            //an.Eat();
+            //an.sound();
 
+            //------------------------------------------------------------------Interface---------------------------------------------------------------------------------
+
+            ISalary FulltimeEmployee = new FulltimeEmployee(20000);
+            ISalary PartTimeEmployee = new PartTimeSalary(4, 200);
+            Console.WriteLine($"Full Time Employee Salary : {FulltimeEmployee.calculateSalary()}");
+            Console.WriteLine($"Part Time Employee Salary : {PartTimeEmployee.calculateSalary()}");
         }
     }
 }

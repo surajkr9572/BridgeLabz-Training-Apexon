@@ -7,6 +7,26 @@
       "RelativeMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|d:\\bridzelabz\\bridgelabz-training-apexon\\oops\\interfaceimple\\parttimesalary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|solutionrelative:interfaceimple\\parttimesalary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|d:\\bridzelabz\\bridgelabz-training-apexon\\oops\\interfaceimple\\fulltimeemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|solutionrelative:interfaceimple\\fulltimeemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|d:\\bridzelabz\\bridgelabz-training-apexon\\oops\\interfaceimple\\isalary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|solutionrelative:interfaceimple\\isalary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|d:\\bridzelabz\\bridgelabz-training-apexon\\oops\\abstraction\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|solutionrelative:abstraction\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|d:\\bridzelabz\\bridgelabz-training-apexon\\oops\\abstraction\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|solutionrelative:abstraction\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|d:\\bridzelabz\\bridgelabz-training-apexon\\oops\\encapsulation\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA7C342E-FF00-2D9D-9787-2537027D63EA}|Oops.csproj|solutionrelative:encapsulation\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -42,9 +62,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAQwIoAAAA0AAAAAAAAAA==",
+              "ToolTip": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAAAJYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-05T10:33:45.016Z",
               "IsPinned": true,
@@ -53,19 +73,82 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BankAccount.cs",
-              "DocumentMoniker": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Encapsulation\\BankAccount.cs",
-              "RelativeDocumentMoniker": "Encapsulation\\BankAccount.cs",
-              "ToolTip": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Encapsulation\\BankAccount.cs",
-              "RelativeToolTip": "Encapsulation\\BankAccount.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowCoAAAAUAAAAAAAAAA==",
+              "Title": "PartTimeSalary.cs",
+              "DocumentMoniker": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\InterfaceImple\\PartTimeSalary.cs",
+              "RelativeDocumentMoniker": "InterfaceImple\\PartTimeSalary.cs",
+              "ToolTip": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\InterfaceImple\\PartTimeSalary.cs",
+              "RelativeToolTip": "InterfaceImple\\PartTimeSalary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T10:40:12.034Z",
+              "WhenOpened": "2025-12-11T06:13:26.596Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "FulltimeEmployee.cs",
+              "DocumentMoniker": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\InterfaceImple\\FulltimeEmployee.cs",
+              "RelativeDocumentMoniker": "InterfaceImple\\FulltimeEmployee.cs",
+              "ToolTip": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\InterfaceImple\\FulltimeEmployee.cs",
+              "RelativeToolTip": "InterfaceImple\\FulltimeEmployee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T06:09:32.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ISalary.cs",
+              "DocumentMoniker": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\InterfaceImple\\ISalary.cs",
+              "RelativeDocumentMoniker": "InterfaceImple\\ISalary.cs",
+              "ToolTip": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\InterfaceImple\\ISalary.cs",
+              "RelativeToolTip": "InterfaceImple\\ISalary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T06:08:07.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dog.cs",
+              "DocumentMoniker": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Abstraction\\Dog.cs",
+              "RelativeDocumentMoniker": "Abstraction\\Dog.cs",
+              "ToolTip": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Abstraction\\Dog.cs",
+              "RelativeToolTip": "Abstraction\\Dog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T12:06:00.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Abstraction\\Animal.cs",
+              "RelativeDocumentMoniker": "Abstraction\\Animal.cs",
+              "ToolTip": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Abstraction\\Animal.cs",
+              "RelativeToolTip": "Abstraction\\Animal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T12:04:09.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BankAccount.cs",
+              "DocumentMoniker": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Encapsulation\\BankAccount.cs",
+              "RelativeDocumentMoniker": "Encapsulation\\BankAccount.cs",
+              "ToolTip": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Encapsulation\\BankAccount.cs",
+              "RelativeToolTip": "Encapsulation\\BankAccount.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA3wCYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T10:40:12.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Mchild.cs",
               "DocumentMoniker": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Hiding\\MethodHiding\\Mchild.cs",
               "RelativeDocumentMoniker": "Hiding\\MethodHiding\\Mchild.cs",
@@ -73,12 +156,11 @@
               "RelativeToolTip": "Hiding\\MethodHiding\\Mchild.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T09:34:11.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-10T09:34:11.097Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Mperson.cs",
               "DocumentMoniker": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Hiding\\MethodHiding\\Mperson.cs",
               "RelativeDocumentMoniker": "Hiding\\MethodHiding\\Mperson.cs",
@@ -86,12 +168,11 @@
               "RelativeToolTip": "Hiding\\MethodHiding\\Mperson.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T09:30:50.482Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-10T09:30:50.482Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Vchild.cs",
               "DocumentMoniker": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Hiding\\VariableHiding\\Vchild.cs",
               "RelativeDocumentMoniker": "Hiding\\VariableHiding\\Vchild.cs",
@@ -99,12 +180,11 @@
               "RelativeToolTip": "Hiding\\VariableHiding\\Vchild.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T09:17:29.116Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-10T09:17:29.116Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Vperson.cs",
               "DocumentMoniker": "D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\Oops\\Hiding\\VariableHiding\\Vperson.cs",
               "RelativeDocumentMoniker": "Hiding\\VariableHiding\\Vperson.cs",
@@ -112,8 +192,7 @@
               "RelativeToolTip": "Hiding\\VariableHiding\\Vperson.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T09:16:57.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-10T09:16:57.06Z"
             }
           ]
         }
