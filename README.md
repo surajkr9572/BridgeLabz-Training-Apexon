@@ -39,3 +39,7 @@
 ## Daily Logs
 ### 11/12/2025
 #### concepts: Interface, Assigment (Snake and Ladder(Question), Employee Management (Question))
+
+## Daily Logs
+### 12/12/2025
+#### concepts: Exception Handling
