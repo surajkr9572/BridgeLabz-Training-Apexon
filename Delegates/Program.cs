@@ -6,9 +6,14 @@ namespace Delegates
     {
         static void Main(string[] args)
         {
-            PredicateWithLambda pwl = new PredicateWithLambda();
-            Console.WriteLine( pwl.Even(5));
-            Console.WriteLine(pwl.Even(6));
+            //PredicateWithLambda pwl = new PredicateWithLambda();
+            //Console.WriteLine( pwl.Even(5));
+            //Console.WriteLine(pwl.Even(6));
+
+           
+            Predicate<int> pos = PredicateWithName.check;
+            Console.WriteLine(pos(-2));
+            Console.WriteLine(pos(4));
         }
     }
 }
