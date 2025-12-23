@@ -1,17 +1,20 @@
 ﻿using Delegates.PredicateImp;
+using Delegates.Events;
+using System.Diagnostics;
 
 namespace Delegates
 {
     internal class Program
     {
-        static int add(int a,int b)
-        {
-            return a + b; 
-        }
-        static int sub(int a,int b) { return a - b; }
-        static int mult(int a,int b) { return a * b; }
-        static int div(int a,int b)
-        { return a / b; }
+
+        //static int add(int a,int b)
+        //{
+        //    return a + b; 
+        //}
+        //static int sub(int a,int b) { return a - b; }
+        //static int mult(int a,int b) { return a * b; }
+        //static int div(int a,int b)
+        //{ return a / b; }
         //static void showmsg(string msg)
         //{
         //    Console.WriteLine(msg);
@@ -75,16 +78,25 @@ namespace Delegates
             //Console.WriteLine(mult(2,9));
 
             //Func with method
-            Func<int, int, int> fun = add;
+            //Func<int, int, int> fun = add;
 
-            Console.WriteLine(fun(8,7));
-            fun = sub;
-            Console.WriteLine(fun(8,7));
-            fun= mult;
-            Console.WriteLine(fun(8,7));
-            fun= div;
-            Console.WriteLine(fun(14,7));
+            //Console.WriteLine(fun(8,7));
+            //fun = sub;
+            //Console.WriteLine(fun(8,7));
+            //fun= mult;
+            //Console.WriteLine(fun(8,7));
+            //fun= div;
+            //Console.WriteLine(fun(14,7));
+            CreateCustomeHandle customehandle = new CreateCustomeHandle();
+            // Subscribing to the event
+            customehandle.ProcessCompleted += ProcessCompletedHandler;
 
+            customehandle.Start();
+
+        }
+        static void ProcessCompletedHandler()
+        {
+            Console.WriteLine("Process Completed!");
         }
     }
 }
