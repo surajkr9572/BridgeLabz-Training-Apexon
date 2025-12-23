@@ -6,7 +6,6 @@ namespace Delegates
 {
     internal class Program
     {
-
         //static int add(int a,int b)
         //{
         //    return a + b; 
@@ -87,16 +86,24 @@ namespace Delegates
             //Console.WriteLine(fun(8,7));
             //fun= div;
             //Console.WriteLine(fun(14,7));
-            CreateCustomeHandle customehandle = new CreateCustomeHandle();
-            // Subscribing to the event
-            customehandle.ProcessCompleted += ProcessCompletedHandler;
+            //CreateCustomeHandle customehandle = new CreateCustomeHandle();
+            //// Subscribing to the event
+            //customehandle.ProcessCompleted += ProcessCompletedHandler;
 
-            customehandle.Start();
+            //process.Start();
 
+            BuiltInEventHandler eventt = new BuiltInEventHandler();
+            eventt.TaskCompleted += manage_TaskCompleted;
+            eventt.Runtask();
         }
-        static void ProcessCompletedHandler()
+       static void manage_TaskCompleted(object sender, EventArgs e)
         {
-            Console.WriteLine("Process Completed!");
+            Console.WriteLine("Task Completed Event Fired!");
         }
+
+        //static void ProcessCompletedHandler()
+        //{
+        //    Console.WriteLine("Process Completed!");
+        //}
     }
 }
