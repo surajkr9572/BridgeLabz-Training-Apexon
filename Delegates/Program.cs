@@ -4,26 +4,32 @@ namespace Delegates
 {
     internal class Program
     {
+        static void showmsg(string msg)
+        {
+            Console.WriteLine(msg);
+        }
         static void Main(string[] args)
         {
-            //PredicateWithLambda pwl = new PredicateWithLambda();
-            //Console.WriteLine( pwl.Even(5));
-            //Console.WriteLine(pwl.Even(6));
+            // Action with No Parameter
+            //Action greet = () => Console.WriteLine("Hello Sir");
+            //greet();
 
 
-            //Predicate<int> pos = PredicateWithName.check;
-            //Console.WriteLine(pos(-2));
-            //Console.WriteLine(pos(4));
+            //Action With one parameter
+            //Action<string> printmsg = msg => Console.WriteLine(msg);
+            //printmsg("hello sir");
 
-            List<int> ls = new List<int> { 1, 2, 3, 4, 5, 6 };
-            PredicateWithCollections ps=new PredicateWithCollections();
-            var ans = ls.Find(ps.Even);
-            var ans1=ls.FindAll(ps.Even);
-            Console.WriteLine(ans);
-            foreach(int i in ans1)
-            {
-                Console.WriteLine(i);
-            }
+            //Action with two parameter
+            //Action<int, int> Sum = (a, b) => Console.WriteLine($"Sum : {a+b}");
+            //Sum(2, 3);
+
+            //Action With multiple Parameter
+            //Action<string> processName = name => { string upper = name.ToUpper(); Console.WriteLine(upper); };
+            //processName("suraj");
+
+            //Action with Name method
+            Action<string> action = showmsg;
+            action("suraj");
         }
     }
 }
