@@ -1,11 +1,18 @@
 ﻿using Delegates.PredicateImp;
 using Delegates.Events;
 using System.Diagnostics;
+using System.Reflection;
 
 namespace Delegates
 {
     internal class Program
     {
+        //static bool CheckPositive(int number)
+        //{
+        //    return number > 0;
+        //}
+
+
         //static int add(int a,int b)
         //{
         //    return a + b; 
@@ -25,81 +32,113 @@ namespace Delegates
         //}
         static void Main(string[] args)
         {
-            // Action with No Parameter
-            //Action greet = () => Console.WriteLine("Hello Sir");
-            //greet();
+            //------------------------------------------------------------Predicate---------------------------------------------------------
+            //    Predicate<int> isEven = n => n % 2 == 0;
+            //Console.WriteLine(isEven(10));
+            //Console.WriteLine(isEven(7));
 
 
-            //Action With one parameter
-            //Action<string> printmsg = msg => Console.WriteLine(msg);
-            //printmsg("hello sir");
 
-            //Action with two parameter
-            //Action<int, int> Sum = (a, b) => Console.WriteLine($"Sum : {a+b}");
-            //Sum(2, 3);
+                //Predicate<int> isPositive = CheckPositive;
 
-            //Action With multiple Parameter
-            //Action<string> processName = name => { string upper = name.ToUpper(); Console.WriteLine(upper); };
-            //processName("suraj");
+                //Console.WriteLine(isPositive(5));
+                //Console.WriteLine(isPositive(-3));
+       
 
-            //Action with Name method
-            //Action<string> action = showmsg;
-            //action("suraj");
+        //----------------------------------------------------------------Action---------------------------------------------------------
+        // Action with No Parameter
+        //Action greet = () => Console.WriteLine("Hello Sir");
+        //greet();
 
 
-            //custome Delegate
-            //Delegate o = sum;
-            //Console.WriteLine(o(1, 2, 3,4));
+        //Action With one parameter
+        //Action<string> printmsg = msg => Console.WriteLine(msg);
+        //printmsg("hello sir");
 
-            //Func with One Parameter
-            //Func<int, int> square = a => a * a;
-            //Console.WriteLine(square(9));
+        //Action with two parameter
+        //Action<int, int> Sum = (a, b) => Console.WriteLine($"Sum : {a+b}");
+        //Sum(2, 3);
 
-            //Func with Two Parameter
-            //Func<int, int, int> Sum = (a, b) => a + b;
-            //Console.WriteLine(Sum(4,8));
+        //Action With multiple Parameter
+        //Action<string> processName = name => { string upper = name.ToUpper(); Console.WriteLine(upper); };
+        //processName("suraj");
 
-            //Func with Three Parameter
-            //Func<int, int, int, int> sum=(a, b, c) => a + b + c;
-            //Console.WriteLine(sum(4,8,12));
-
-            //Func With No Parameter
-            //Func<string> fun = () => ("Hello Sir");
-            //Console.WriteLine(fun());
+        //Action with Name method
+        //Action<string> action = showmsg;
+        //action("suraj");
 
 
-            //Func with Statement Block
-            //Func<int, int, int> mult = (a, b) =>
-            //{
-            //    int ans = a * b;
-            //    return ans;
-            //};
-            //Console.WriteLine(mult(2,9));
+        //------------------------------------------------------custome Delegate---------------------------------------------------
+        //Delegate o = sum;
+        //Console.WriteLine(o(1, 2, 3,4));
+        //---------------------------------------------------------Func-----------------------------------------------------------
 
-            //Func with method
-            //Func<int, int, int> fun = add;
+        //Func with One Parameter
+        //Func<int, int> square = a => a * a;
+        //Console.WriteLine(square(9));
 
-            //Console.WriteLine(fun(8,7));
-            //fun = sub;
-            //Console.WriteLine(fun(8,7));
-            //fun= mult;
-            //Console.WriteLine(fun(8,7));
-            //fun= div;
-            //Console.WriteLine(fun(14,7));
-            //CreateCustomeHandle customehandle = new CreateCustomeHandle();
-            //// Subscribing to the event
-            //customehandle.ProcessCompleted += ProcessCompletedHandler;
+        //Func with Two Parameter
+        //Func<int, int, int> Sum = (a, b) => a + b;
+        //Console.WriteLine(Sum(4,8));
 
-            //process.Start();
+        //Func with Three Parameter
+        //Func<int, int, int, int> sum=(a, b, c) => a + b + c;
+        //Console.WriteLine(sum(4,8,12));
 
-            BuiltInEventHandler eventt = new BuiltInEventHandler();
-            eventt.TaskCompleted += manage_TaskCompleted;
-            eventt.Runtask();
-        }
-       static void manage_TaskCompleted(object sender, EventArgs e)
-        {
-            Console.WriteLine("Task Completed Event Fired!");
-        }
+        //Func With No Parameter
+        //Func<string> fun = () => ("Hello Sir");
+        //Console.WriteLine(fun());
+
+
+        //Func with Statement Block
+        //Func<int, int, int> mult = (a, b) =>
+        //{
+        //    int ans = a * b;
+        //    return ans;
+        //};
+        //Console.WriteLine(mult(2,9));
+
+        //Func with method
+        //Func<int, int, int> fun = add;
+
+        //Console.WriteLine(fun(8,7));
+        //fun = sub;
+        //Console.WriteLine(fun(8,7));
+        //fun= mult;
+        //Console.WriteLine(fun(8,7));
+        //fun= div;
+        //Console.WriteLine(fun(14,7));
+
+        //----------------------------------------------------------Event------------------------------------------------------------
+        //CreateCustomeHandle customehandle = new CreateCustomeHandle();
+        //// Subscribing to the event
+        //customehandle.ProcessCompleted += ProcessCompletedHandler;
+
+        //process.Start();
+
+        //BuiltInEventHandler eventt = new BuiltInEventHandler();
+        //eventt.TaskCompleted += manage_TaskCompleted;
+        //eventt.Runtask();
+
+
+        // ------------------------------------------------------Reflaction---------------------------------------------------------
+        Type t = typeof(string);
+            Console.WriteLine($"Name : {t.Name}");
+            Console.WriteLine($"Full Name : {t.FullName}");
+            Console.WriteLine($"Namespace : {t.Namespace}");
+            Console.WriteLine($"Base Type : {t.BaseType}");
+
+
+
+
+
+
+
+    }
+       //static void manage_TaskCompleted(object sender, EventArgs e)
+       // {
+       //     Console.WriteLine("Task Completed Event Fired!");
+       // }
 
         //static void ProcessCompletedHandler()
         //{
