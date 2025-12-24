@@ -122,11 +122,11 @@ namespace Delegates
 
 
         // ------------------------------------------------------Reflaction---------------------------------------------------------
-        Type t = typeof(string);
-            Console.WriteLine($"Name : {t.Name}");
-            Console.WriteLine($"Full Name : {t.FullName}");
-            Console.WriteLine($"Namespace : {t.Namespace}");
-            Console.WriteLine($"Base Type : {t.BaseType}");
+        //Type t = typeof(string);
+        //    Console.WriteLine($"Name : {t.Name}");
+        //    Console.WriteLine($"Full Name : {t.FullName}");
+        //    Console.WriteLine($"Namespace : {t.Namespace}");
+        //    Console.WriteLine($"Base Type : {t.BaseType}");
 
 
 
