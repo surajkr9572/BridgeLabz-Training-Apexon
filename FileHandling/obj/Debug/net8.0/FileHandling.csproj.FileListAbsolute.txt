@@ -1,0 +1,15 @@
+D:\Bridzelabz\BridgeLabz-Training-Apexon\FileHandling\bin\Debug\net8.0\FileHandling.exe
+D:\Bridzelabz\BridgeLabz-Training-Apexon\FileHandling\bin\Debug\net8.0\FileHandling.deps.json
+D:\Bridzelabz\BridgeLabz-Training-Apexon\FileHandling\bin\Debug\net8.0\FileHandling.runtimeconfig.json
+D:\Bridzelabz\BridgeLabz-Training-Apexon\FileHandling\bin\Debug\net8.0\FileHandling.dll
+D:\Bridzelabz\BridgeLabz-Training-Apexon\FileHandling\bin\Debug\net8.0\FileHandling.pdb
+D:\Bridzelabz\BridgeLabz-Training-Apexon\FileHandling\obj\Debug\net8.0\FileHandling.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bridzelabz\BridgeLabz-Training-Apexon\FileHandling\obj\Debug\net8.0\FileHandling.AssemblyInfoInputs.cache
+D:\Bridzelabz\BridgeLabz-Training-Apexon\FileHandling\obj\Debug\net8.0\FileHandling.AssemblyInfo.cs
+D:\Bridzelabz\BridgeLabz-Training-Apexon\FileHandling\obj\Debug\net8.0\FileHandling.csproj.CoreCompileInputs.cache
+D:\Bridzelabz\BridgeLabz-Training-Apexon\FileHandling\obj\Debug\net8.0\FileHandling.sourcelink.json
+D:\Bridzelabz\BridgeLabz-Training-Apexon\FileHandling\obj\Debug\net8.0\FileHandling.dll
+D:\Bridzelabz\BridgeLabz-Training-Apexon\FileHandling\obj\Debug\net8.0\refint\FileHandling.dll
+D:\Bridzelabz\BridgeLabz-Training-Apexon\FileHandling\obj\Debug\net8.0\FileHandling.pdb
+D:\Bridzelabz\BridgeLabz-Training-Apexon\FileHandling\obj\Debug\net8.0\FileHandling.genruntimeconfig.cache
+D:\Bridzelabz\BridgeLabz-Training-Apexon\FileHandling\obj\Debug\net8.0\ref\FileHandling.dll
