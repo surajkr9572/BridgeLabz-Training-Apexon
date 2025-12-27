@@ -43,3 +43,51 @@
 ## Daily Logs
 ### 12/12/2025
 #### concepts: Exception Handling
+
+## Daily Logs
+### 13/12/2025
+### concepts: AddressBook Project UseCase 6
+
+## Daily Logs
+### 15/12/2025
+### concepts: Reviews, AddressBook Project UseCase 9
+
+## Daily Logs
+### 16/12/2025
+#### concepts: Regex
+
+## Daily Logs
+### 17/12/2025
+### concepts: Non Collections
+
+## Daily Logs
+### 18/12/2025
+#### concepts: AddressBook UseCase 11, Generic(List)
+
+## Daily Logs
+### 19/12/2025
+#### concepts: Completed Collections
+
+## Daily Logs
+### 20/12/2025
+#### concepts: LINQ
+
+## Daily Logs
+### 22/12/2025
+#### concepts: Review, Start Delegates
+
+## Daily Logs
+### 23/12/2025
+#### concepts: Delegates, Lambda Expression, Closures, Reflections, Events
+
+## Daily Logs
+### 24/12/2025
+#### concepts: NUnit
+
+## Daily Logs
+### 26/12/2025
+#### concepts: File Handling
+
+## Daliy Logs
+### 27/12/2025
+#### concepts: File Handling, SOLID
