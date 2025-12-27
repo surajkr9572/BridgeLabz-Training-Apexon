@@ -13,3 +13,6 @@ D:\Bridzelabz\BridgeLabz-Training-Apexon\FileHandling\obj\Debug\net8.0\refint\Fi
 D:\Bridzelabz\BridgeLabz-Training-Apexon\FileHandling\obj\Debug\net8.0\FileHandling.pdb
 D:\Bridzelabz\BridgeLabz-Training-Apexon\FileHandling\obj\Debug\net8.0\FileHandling.genruntimeconfig.cache
 D:\Bridzelabz\BridgeLabz-Training-Apexon\FileHandling\obj\Debug\net8.0\ref\FileHandling.dll
+D:\Bridzelabz\BridgeLabz-Training-Apexon\FileHandling\bin\Debug\net8.0\CsvHelper.dll
+D:\Bridzelabz\BridgeLabz-Training-Apexon\FileHandling\obj\Debug\net8.0\FileHandling.csproj.AssemblyReference.cache
+D:\Bridzelabz\BridgeLabz-Training-Apexon\FileHandling\obj\Debug\net8.0\FileHand.48E55C62.Up2Date

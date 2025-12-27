@@ -1,2 +1,10 @@
-Welcome to DotNetTutorials
-You are Learning File Handling in C#
+Id : 1
+Name : Suraj
+Age : 23
+Description : I am from Bihar
+-----------------------------------
+Id : 2
+Name : Sachin
+Age : 22
+Description : I am from UP
+-----------------------------------

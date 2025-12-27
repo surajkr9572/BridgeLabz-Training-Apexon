@@ -1,5 +1,8 @@
-﻿using System.ComponentModel;
+﻿using CsvHelper;
+using System.ComponentModel;
+using System.Globalization;
 using System.Text;
+using System.Text.Json;
 
 namespace FileHandling
 {
@@ -9,7 +12,7 @@ namespace FileHandling
         {
 
             //File Creation Example using FileSteam Class
-            string path = @"D:\Bridzelabz\BridgeLabz-Training-Apexon\FileHandling\MyFile.txt";
+            // string path = @"D:\Bridzelabz\BridgeLabz-Training-Apexon\FileHandling\MyFile.txt";
             //FileStream fileStream = new FileStream(path, FileMode.Create);
             //fileStream.Close();
             //Console.WriteLine("File is Created and is path is D:\\Bridzelabz\\BridgeLabz-Training-Apexon\\FileHandling");
@@ -95,31 +98,194 @@ namespace FileHandling
             //}
 
             //Using both StreamReader and StreamWriter Class in C#
-            using (StreamWriter streamWriter = new StreamWriter(path))
-            {
-                streamWriter.WriteLine("Welcome to DotNetTutorials");
-                streamWriter.WriteLine("You are Learning File Handling in C#");
-            }
+            //using (StreamWriter streamWriter = new StreamWriter(path))
+            //{
+            //    streamWriter.WriteLine("Welcome to DotNetTutorials");
+            //    streamWriter.WriteLine("You are Learning File Handling in C#");
+            //}
 
-            //Reading text file using StreamReader Class ReadToEnd Method
-            Console.WriteLine("\nReading Approach 1: using ReadToEnd Method");
-            using (StreamReader reader = new StreamReader(path))
-            {
-                Console.WriteLine(reader.ReadToEnd());
-            }
+            ////Reading text file using StreamReader Class ReadToEnd Method
+            //Console.WriteLine("\nReading Approach 1: using ReadToEnd Method");
+            //using (StreamReader reader = new StreamReader(path))
+            //{
+            //    Console.WriteLine(reader.ReadToEnd());
+            //}
 
-            //Another Approach to Read the Data from a text file using StreamReader ReadLine Method
-            Console.WriteLine("\nReading Approach 2: using ReadLine Method");
-            StreamReader streamReader = new StreamReader(path);
-            streamReader.BaseStream.Seek(0, SeekOrigin.Begin);
-            string strData = streamReader.ReadLine();
-            while (strData != null)
-            {
-                Console.WriteLine(strData);
-                strData = streamReader.ReadLine();
-            }
+            ////Another Approach to Read the Data from a text file using StreamReader ReadLine Method
+            //Console.WriteLine("\nReading Approach 2: using ReadLine Method");
+            //StreamReader streamReader = new StreamReader(path);
+            //streamReader.BaseStream.Seek(0, SeekOrigin.Begin);
+            //string strData = streamReader.ReadLine();
+            //while (strData != null)
+            //{
+            //    Console.WriteLine(strData);
+            //    strData = streamReader.ReadLine();
+            //}
 
-            Console.ReadKey();
+            //Console.ReadKey();
+
+            //Serialization---------------------------------------------------------------------------------------
+
+            //Person p1 = new Person
+            //{
+            //    Id = 1,
+            //    Name = "Suraj",
+            //    Age = 23,
+            //    Description = "I am from Bihar"
+            //};
+
+            //Person p2 = new Person
+            //{
+            //    Id = 2,
+            //    Name = "Sachin",
+            //    Age = 22,
+            //    Description = "I am from UP"
+            //};
+            //using(StreamWriter streamwrite=new StreamWriter(path))
+            //{
+            //    WritePerson(streamwrite, p1);
+            //    WritePerson(streamwrite, p2);
+            //}
+            //Console.WriteLine("Data Serialized to text file Successfully");
+
+
+            //Deserialization----------------------------------------------------------------------------------------
+            //List<Person> p=ReadPersonFun(path);
+            //foreach(var i in p)
+            //{
+            //    Console.WriteLine($"{i.Id} {i.Name} {i.Age} {i.Description}");
+            //}
+
+            /////--------------------------------------------------CSV Serialization (Object → CSV file--------------------------------
+            //List<Person> p = new List<Person>
+            //{
+            //    new Person{Id=1,Name="Bitu",Age=18, Description="Hello Sir"},
+            //    new Person{Id=2,Name="Divyanshu", Age=6, Description="I am divyanshu"},
+            //    new Person{Id=3,Name="Divyansh", Age=4, Description="I am Divyansh"}
+            //};
+            string path = @"D:\Bridzelabz\BridgeLabz-Training-Apexon\FileHandling\person.json";
+            //using(var writer=new StreamWriter(path))
+            //using(var csv=new CsvWriter(writer, CultureInfo.InvariantCulture))
+            //{
+            //    csv.WriteRecords(p);
+            //}
+
+            //Person p = new Person { Id = 3, Name = "Aryan", Age = 22 , Description="hii"};
+
+            //string csvLine = $"{p.Id},{p.Name},{p.Age},{p.Description}";
+
+            //File.WriteAllText(path, csvLine);
+
+            //-------------------------------------------------------CSV Deserialization (CSV → Object)-------------------------------------------
+
+            //string csvdata = File.ReadAllText(path);
+            //string[] values = csvdata.Split(',');
+            //Person p = new Person
+            //{
+            //    Id = int.Parse(values[0]),
+            //    Name = values[1],
+            //    Age = int.Parse(values[2]),
+            //    Description = values[3]
+            //};
+            //Console.WriteLine($"{p.Id} {p.Name} {p.Age} {p.Description}");
+
+
+            //---------------------------------------CSV Serialization with Multiple Objects----------------------------------------------------
+            //List<Person> p = new List<Person>
+            //{
+            //    new Person{Id=1, Name="Suraj", Age=23, Description="Hi I am Suraj"},
+            //    new Person{Id=2, Name="Sachin", Age=22, Description="Hii I am Sachin" }
+            //};
+            //using(StreamWriter sw= new StreamWriter(path))
+            //{
+            //    sw.WriteLine("Id,Name,Age,Description");
+            //    foreach(var i in p)
+            //    {
+            //        sw.WriteLine($"{i.Id},{i.Name},{i.Age},{i.Description}");
+            //    }
+            //}
+
+            //--------------------------------------CSV Deserialization (Multiple Rows)------------------------------------------------
+            //List<Person>person=new List<Person>();
+            //var lines=File.ReadAllLines(path);
+            //for(int i = 1; i < lines.Length; i++)
+            //{
+            //    var val=lines[i].Split(',');
+            //    Person p = new Person()
+            //    {
+            //        Id = int.Parse(val[0]),
+            //        Name = val[1],
+            //        Age = int.Parse(val[2]),
+            //        Description = val[3]
+            //    };
+            //    person.Add(p);
+            //}
+            //foreach (var p in person)
+            //{
+            //    Console.WriteLine($"{p.Id},{p.Name},{p.Age},{p.Description}");
+            //}
+
+            //List<Person> p;
+            //using (var reader = new StreamReader(path))
+            //using(var csv=new CsvReader(reader, CultureInfo.InvariantCulture))
+            //{
+            //    p=csv.GetRecords<Person>().ToList();
+            //}
+            //foreach(var i in p)
+            //{
+            //    Console.WriteLine($"{i.Id},{i.Name},{i.Age},{i.Description}");
+            //}
+
+            //-------------------------------------------JSON Serialization (Object → JSON File)---------------------------------------------
+            //FileStream filestream = new FileStream(path, FileMode.Create);
+            //List<Person> p = new List<Person>()
+            //{
+            //    new Person { Id = 1, Name = "Bitu", Age = 18, Description = "Hello Sir" },
+            //    new Person { Id = 2, Name = "Divyanshu", Age = 6, Description = "I am Divyanshu" }
+            //};
+            //string json=JsonSerializer.Serialize(p,new JsonSerializerOptions
+            //{
+            //    WriteIndented=true
+            //});
+            //File.WriteAllText(path,json);
+
+            //-----------------------------------------JSON Deserialization (JSON → Object)------------------------------------------------------
+            //string json = File.ReadAllText(path);
+
+            //List<Person> people = JsonSerializer.Deserialize<List<Person>>(json);
+
+            //foreach (var p in people)
+            //{
+            //    Console.WriteLine($"{p.Id}, {p.Name}, {p.Age}, {p.Description}");
+            //}
         }
+        //static void WritePerson(StreamWriter streamwrite, Person p)
+        //{
+        //    streamwrite.WriteLine("Id : "+ p.Id);
+        //    streamwrite.WriteLine("Name : " + p.Name);
+        //    streamwrite.WriteLine("Age : "+p.Age);
+        //    streamwrite.WriteLine("Description : " + p.Description);
+        //    streamwrite.WriteLine("-----------------------------------");
+        //}
+
+        //static List<Person> ReadPersonFun(string path)
+        //{
+        //    List<Person>person=new List<Person>();
+        //    using(StreamReader  sr = new StreamReader(path))
+        //    {
+        //        while (!sr.EndOfStream)
+        //        {
+        //            Person p=new Person();
+        //            p.Id = int.Parse(sr.ReadLine().Split(':')[1].Trim());
+        //            p.Name = sr.ReadLine().Split(':')[1].Trim();
+        //            p.Age = int.Parse(sr.ReadLine().Split(':')[1].Trim());
+        //            p.Description = sr.ReadLine().Split(':')[1].Trim() ;
+
+        //            sr.ReadLine();
+        //            person.Add(p);
+        //        }
+        //    }
+        //    return person;
+
     }
 }
