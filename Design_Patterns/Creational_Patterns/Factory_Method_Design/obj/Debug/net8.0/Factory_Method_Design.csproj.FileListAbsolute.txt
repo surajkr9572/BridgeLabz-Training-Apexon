@@ -1,0 +1,15 @@
+D:\Bridzelabz\BridgeLabz-Training-Apexon\Design_Patterns\Creational_Patterns\Factory_Method_Design\bin\Debug\net8.0\Factory_Method_Design.exe
+D:\Bridzelabz\BridgeLabz-Training-Apexon\Design_Patterns\Creational_Patterns\Factory_Method_Design\bin\Debug\net8.0\Factory_Method_Design.deps.json
+D:\Bridzelabz\BridgeLabz-Training-Apexon\Design_Patterns\Creational_Patterns\Factory_Method_Design\bin\Debug\net8.0\Factory_Method_Design.runtimeconfig.json
+D:\Bridzelabz\BridgeLabz-Training-Apexon\Design_Patterns\Creational_Patterns\Factory_Method_Design\bin\Debug\net8.0\Factory_Method_Design.dll
+D:\Bridzelabz\BridgeLabz-Training-Apexon\Design_Patterns\Creational_Patterns\Factory_Method_Design\bin\Debug\net8.0\Factory_Method_Design.pdb
+D:\Bridzelabz\BridgeLabz-Training-Apexon\Design_Patterns\Creational_Patterns\Factory_Method_Design\obj\Debug\net8.0\Factory_Method_Design.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bridzelabz\BridgeLabz-Training-Apexon\Design_Patterns\Creational_Patterns\Factory_Method_Design\obj\Debug\net8.0\Factory_Method_Design.AssemblyInfoInputs.cache
+D:\Bridzelabz\BridgeLabz-Training-Apexon\Design_Patterns\Creational_Patterns\Factory_Method_Design\obj\Debug\net8.0\Factory_Method_Design.AssemblyInfo.cs
+D:\Bridzelabz\BridgeLabz-Training-Apexon\Design_Patterns\Creational_Patterns\Factory_Method_Design\obj\Debug\net8.0\Factory_Method_Design.csproj.CoreCompileInputs.cache
+D:\Bridzelabz\BridgeLabz-Training-Apexon\Design_Patterns\Creational_Patterns\Factory_Method_Design\obj\Debug\net8.0\Factory_Method_Design.sourcelink.json
+D:\Bridzelabz\BridgeLabz-Training-Apexon\Design_Patterns\Creational_Patterns\Factory_Method_Design\obj\Debug\net8.0\Factory_Method_Design.dll
+D:\Bridzelabz\BridgeLabz-Training-Apexon\Design_Patterns\Creational_Patterns\Factory_Method_Design\obj\Debug\net8.0\refint\Factory_Method_Design.dll
+D:\Bridzelabz\BridgeLabz-Training-Apexon\Design_Patterns\Creational_Patterns\Factory_Method_Design\obj\Debug\net8.0\Factory_Method_Design.pdb
+D:\Bridzelabz\BridgeLabz-Training-Apexon\Design_Patterns\Creational_Patterns\Factory_Method_Design\obj\Debug\net8.0\Factory_Method_Design.genruntimeconfig.cache
+D:\Bridzelabz\BridgeLabz-Training-Apexon\Design_Patterns\Creational_Patterns\Factory_Method_Design\obj\Debug\net8.0\ref\Factory_Method_Design.dll
