@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bridge_Design_Pattern")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2765e79e2b1e5586199fff46d7cff80b72e5e1d3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11f174e47ab51be67e67d414fdb6dd4532166b27")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bridge_Design_Pattern")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bridge_Design_Pattern")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

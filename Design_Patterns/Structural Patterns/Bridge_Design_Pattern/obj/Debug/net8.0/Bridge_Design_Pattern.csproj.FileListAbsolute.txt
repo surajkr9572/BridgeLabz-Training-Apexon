@@ -1,0 +1,15 @@
+D:\Bridzelabz\BridgeLabz-Training-Apexon\Design_Patterns\Structural Patterns\Bridge_Design_Pattern\obj\Debug\net8.0\Bridge_Design_Pattern.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bridzelabz\BridgeLabz-Training-Apexon\Design_Patterns\Structural Patterns\Bridge_Design_Pattern\obj\Debug\net8.0\Bridge_Design_Pattern.AssemblyInfoInputs.cache
+D:\Bridzelabz\BridgeLabz-Training-Apexon\Design_Patterns\Structural Patterns\Bridge_Design_Pattern\obj\Debug\net8.0\Bridge_Design_Pattern.AssemblyInfo.cs
+D:\Bridzelabz\BridgeLabz-Training-Apexon\Design_Patterns\Structural Patterns\Bridge_Design_Pattern\obj\Debug\net8.0\Bridge_Design_Pattern.csproj.CoreCompileInputs.cache
+D:\Bridzelabz\BridgeLabz-Training-Apexon\Design_Patterns\Structural Patterns\Bridge_Design_Pattern\obj\Debug\net8.0\Bridge_Design_Pattern.sourcelink.json
+D:\Bridzelabz\BridgeLabz-Training-Apexon\Design_Patterns\Structural Patterns\Bridge_Design_Pattern\bin\Debug\net8.0\Bridge_Design_Pattern.exe
+D:\Bridzelabz\BridgeLabz-Training-Apexon\Design_Patterns\Structural Patterns\Bridge_Design_Pattern\bin\Debug\net8.0\Bridge_Design_Pattern.deps.json
+D:\Bridzelabz\BridgeLabz-Training-Apexon\Design_Patterns\Structural Patterns\Bridge_Design_Pattern\bin\Debug\net8.0\Bridge_Design_Pattern.runtimeconfig.json
+D:\Bridzelabz\BridgeLabz-Training-Apexon\Design_Patterns\Structural Patterns\Bridge_Design_Pattern\bin\Debug\net8.0\Bridge_Design_Pattern.dll
+D:\Bridzelabz\BridgeLabz-Training-Apexon\Design_Patterns\Structural Patterns\Bridge_Design_Pattern\bin\Debug\net8.0\Bridge_Design_Pattern.pdb
+D:\Bridzelabz\BridgeLabz-Training-Apexon\Design_Patterns\Structural Patterns\Bridge_Design_Pattern\obj\Debug\net8.0\Bridge_Design_Pattern.dll
+D:\Bridzelabz\BridgeLabz-Training-Apexon\Design_Patterns\Structural Patterns\Bridge_Design_Pattern\obj\Debug\net8.0\refint\Bridge_Design_Pattern.dll
+D:\Bridzelabz\BridgeLabz-Training-Apexon\Design_Patterns\Structural Patterns\Bridge_Design_Pattern\obj\Debug\net8.0\Bridge_Design_Pattern.pdb
+D:\Bridzelabz\BridgeLabz-Training-Apexon\Design_Patterns\Structural Patterns\Bridge_Design_Pattern\obj\Debug\net8.0\Bridge_Design_Pattern.genruntimeconfig.cache
+D:\Bridzelabz\BridgeLabz-Training-Apexon\Design_Patterns\Structural Patterns\Bridge_Design_Pattern\obj\Debug\net8.0\ref\Bridge_Design_Pattern.dll
