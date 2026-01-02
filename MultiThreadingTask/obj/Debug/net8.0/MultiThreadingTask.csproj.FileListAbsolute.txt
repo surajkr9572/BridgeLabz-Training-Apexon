@@ -1,0 +1,15 @@
+D:\Bridzelabz\BridgeLabz-Training-Apexon\MultiThreadingTask\obj\Debug\net8.0\MultiThreadingTask.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bridzelabz\BridgeLabz-Training-Apexon\MultiThreadingTask\obj\Debug\net8.0\MultiThreadingTask.AssemblyInfoInputs.cache
+D:\Bridzelabz\BridgeLabz-Training-Apexon\MultiThreadingTask\obj\Debug\net8.0\MultiThreadingTask.AssemblyInfo.cs
+D:\Bridzelabz\BridgeLabz-Training-Apexon\MultiThreadingTask\obj\Debug\net8.0\MultiThreadingTask.csproj.CoreCompileInputs.cache
+D:\Bridzelabz\BridgeLabz-Training-Apexon\MultiThreadingTask\obj\Debug\net8.0\MultiThreadingTask.sourcelink.json
+D:\Bridzelabz\BridgeLabz-Training-Apexon\MultiThreadingTask\bin\Debug\net8.0\MultiThreadingTask.exe
+D:\Bridzelabz\BridgeLabz-Training-Apexon\MultiThreadingTask\bin\Debug\net8.0\MultiThreadingTask.deps.json
+D:\Bridzelabz\BridgeLabz-Training-Apexon\MultiThreadingTask\bin\Debug\net8.0\MultiThreadingTask.runtimeconfig.json
+D:\Bridzelabz\BridgeLabz-Training-Apexon\MultiThreadingTask\bin\Debug\net8.0\MultiThreadingTask.dll
+D:\Bridzelabz\BridgeLabz-Training-Apexon\MultiThreadingTask\bin\Debug\net8.0\MultiThreadingTask.pdb
+D:\Bridzelabz\BridgeLabz-Training-Apexon\MultiThreadingTask\obj\Debug\net8.0\MultiThreadingTask.dll
+D:\Bridzelabz\BridgeLabz-Training-Apexon\MultiThreadingTask\obj\Debug\net8.0\refint\MultiThreadingTask.dll
+D:\Bridzelabz\BridgeLabz-Training-Apexon\MultiThreadingTask\obj\Debug\net8.0\MultiThreadingTask.pdb
+D:\Bridzelabz\BridgeLabz-Training-Apexon\MultiThreadingTask\obj\Debug\net8.0\MultiThreadingTask.genruntimeconfig.cache
+D:\Bridzelabz\BridgeLabz-Training-Apexon\MultiThreadingTask\obj\Debug\net8.0\ref\MultiThreadingTask.dll
