@@ -6,10 +6,12 @@ namespace ADO_NET
         static string connectionString = "Data Source=SURAJ;Initial Catalog=todo;Integrated Security=True;Encrypt=False";
         static void Main(string[] args)
         {
-           // InsertTask();
-            ReadTask();
+           CreateTask();
+           ReadTask();
+           UpdateTask();
+           DeleteTask();
         }
-        static void InsertTask()
+        static void CreateTask()
         {
             Console.Write("Enter Task Name : ");
             string tname=Console.ReadLine();
@@ -42,6 +44,64 @@ namespace ADO_NET
             }catch(Exception ex)
             {
                 Console.WriteLine(ex.Message);
+            }
+        }
+        static void UpdateTask()
+        {
+            Console.Write("Enter Task Id to Update: ");
+            int Id = int.Parse(Console.ReadLine());
+            Console.Write("Enter New Task : ");
+            string Tname = Console.ReadLine();
+
+            string url = "UPDATE Task SET Tname=@Tname Where Id=@Id";
+            try
+            {
+                using(SqlConnection  conn = new SqlConnection(connectionString))
+                {
+                    SqlCommand cmd = new SqlCommand(url, conn);
+                    cmd.Parameters.AddWithValue("@Id", Id);
+                    cmd.Parameters.AddWithValue("@Tname", Tname);
+                    conn.Open();
+                    int row = cmd.ExecuteNonQuery();
+                    if (row < 0)
+                    {
+                        Console.WriteLine("No Task Found with given Id");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Task Updated Successfully");
+                    }
+                }
+            }catch(Exception ex){
+                Console.WriteLine(ex);
+            }
+        }
+        static void DeleteTask()
+        {
+            Console.Write("Enter Id to delete : ");
+            int Id = int.Parse(Console.ReadLine());
+            string url = "DELETE FROM Task WHERE Id=@Id";
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
+                    SqlCommand cmd = new SqlCommand(url, conn);
+                    cmd.Parameters.AddWithValue("Id", Id);
+                    conn.Open();
+                    int row = cmd.ExecuteNonQuery();
+                    if (row < 0)
+                    {
+                        Console.WriteLine("Task Not Found.....");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Task Deleted Successfully");
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
             }
         }
     }
