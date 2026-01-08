@@ -6,10 +6,15 @@ namespace ADO_NET
         static string connectionString = "Data Source=SURAJ;Initial Catalog=todo;Integrated Security=True;Encrypt=False";
         static void Main(string[] args)
         {
-           CreateTask();
-           ReadTask();
-           UpdateTask();
-           DeleteTask();
+            STORED_PROCEDURE SP=new STORED_PROCEDURE();
+            //SP.InsertTask();
+            //SP.ReadAllTask();
+            //SP.UpdateTask();
+            SP.DeleteTask();
+            //CreateTask();
+            //ReadTask();
+            //UpdateTask();
+            //DeleteTask();
         }
         static void CreateTask()
         {
@@ -86,7 +91,7 @@ namespace ADO_NET
                 using (SqlConnection conn = new SqlConnection(connectionString))
                 {
                     SqlCommand cmd = new SqlCommand(url, conn);
-                    cmd.Parameters.AddWithValue("Id", Id);
+                    cmd.Parameters.AddWithValue("@Id", Id);
                     conn.Open();
                     int row = cmd.ExecuteNonQuery();
                     if (row < 0)
